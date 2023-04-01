@@ -1,3 +1,12 @@
+Nama Anggota
+- Ahmad Fazri Nursamsi (17200473)
+- Arliyando Randa Linggi (17200349)
+- Dianna Putri Aprillilia (17200936)
+- Solihudin (17200518)
+- Yoel Steady Valentino (17200348)
+
+
+
 # CodeIgniter 4 Framework
 
 ## What is CodeIgniter?
