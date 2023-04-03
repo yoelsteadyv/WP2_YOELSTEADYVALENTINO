@@ -17,6 +17,6 @@ class Latihan1 extends Controller
     {
         $model = new Model_latihan1();
         $hasil = $model->jumlah($n1, $n2);
-        echo "Hasil Penjumlahan dari " . $n1 . " + " . $n2 . " = " . $hasil;
+        echo "Hasil Penjumlahan dari " . $n1 . " + " . $n 2 . " = " . $hasil;
     }
 }
