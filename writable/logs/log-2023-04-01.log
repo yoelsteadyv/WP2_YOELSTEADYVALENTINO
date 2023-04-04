@@ -1,10 +1,496 @@
-CRITICAL - 2023-04-01 03:30:53 --> Invalid file: "index.php"
-in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
- 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
- 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
- 3 APPPATH/Controllers/UserController.php(28): view()
- 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UserController->index()
+CRITICAL - 2023-04-01 04:24:58 --> key must be a string when using hmac
+in VENDORPATH/firebase/php-jwt/src/JWT.php on line 233.
+ 1 VENDORPATH/firebase/php-jwt/src/JWT.php(203): Firebase\JWT\JWT::sign()
+ 2 APPPATH/Controllers/UserController.php(91): Firebase\JWT\JWT::encode()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UserController->Register()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/kuliah/Project_finish/Kampus_project_end/public/index.php')
+CRITICAL - 2023-04-01 04:25:00 --> key must be a string when using hmac
+in VENDORPATH/firebase/php-jwt/src/JWT.php on line 233.
+ 1 VENDORPATH/firebase/php-jwt/src/JWT.php(203): Firebase\JWT\JWT::sign()
+ 2 APPPATH/Controllers/UserController.php(91): Firebase\JWT\JWT::encode()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UserController->Register()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/kuliah/Project_finish/Kampus_project_end/public/index.php')
+CRITICAL - 2023-04-01 04:25:00 --> key must be a string when using hmac
+in VENDORPATH/firebase/php-jwt/src/JWT.php on line 233.
+ 1 VENDORPATH/firebase/php-jwt/src/JWT.php(203): Firebase\JWT\JWT::sign()
+ 2 APPPATH/Controllers/UserController.php(91): Firebase\JWT\JWT::encode()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UserController->Register()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/kuliah/Project_finish/Kampus_project_end/public/index.php')
+CRITICAL - 2023-04-01 04:25:05 --> key must be a string when using hmac
+in VENDORPATH/firebase/php-jwt/src/JWT.php on line 233.
+ 1 VENDORPATH/firebase/php-jwt/src/JWT.php(203): Firebase\JWT\JWT::sign()
+ 2 APPPATH/Controllers/UserController.php(91): Firebase\JWT\JWT::encode()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UserController->Register()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/kuliah/Project_finish/Kampus_project_end/public/index.php')
+CRITICAL - 2023-04-01 04:25:14 --> key must be a string when using hmac
+in VENDORPATH/firebase/php-jwt/src/JWT.php on line 233.
+ 1 VENDORPATH/firebase/php-jwt/src/JWT.php(203): Firebase\JWT\JWT::sign()
+ 2 APPPATH/Controllers/UserController.php(91): Firebase\JWT\JWT::encode()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UserController->Register()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/kuliah/Project_finish/Kampus_project_end/public/index.php')
+CRITICAL - 2023-04-01 04:25:59 --> key must be a string when using hmac
+in VENDORPATH/firebase/php-jwt/src/JWT.php on line 233.
+ 1 VENDORPATH/firebase/php-jwt/src/JWT.php(203): Firebase\JWT\JWT::sign()
+ 2 APPPATH/Controllers/UserController.php(91): Firebase\JWT\JWT::encode()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UserController->Register()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/kuliah/Project_finish/Kampus_project_end/public/index.php')
+CRITICAL - 2023-04-01 04:26:18 --> key must be a string when using hmac
+in VENDORPATH/firebase/php-jwt/src/JWT.php on line 233.
+ 1 VENDORPATH/firebase/php-jwt/src/JWT.php(203): Firebase\JWT\JWT::sign()
+ 2 APPPATH/Controllers/UserController.php(91): Firebase\JWT\JWT::encode()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UserController->Register()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/kuliah/Project_finish/Kampus_project_end/public/index.php')
+CRITICAL - 2023-04-01 04:26:26 --> key must be a string when using hmac
+in VENDORPATH/firebase/php-jwt/src/JWT.php on line 233.
+ 1 VENDORPATH/firebase/php-jwt/src/JWT.php(203): Firebase\JWT\JWT::sign()
+ 2 APPPATH/Controllers/UserController.php(91): Firebase\JWT\JWT::encode()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UserController->Register()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/kuliah/Project_finish/Kampus_project_end/public/index.php')
+CRITICAL - 2023-04-01 04:26:59 --> key must be a string when using hmac
+in VENDORPATH/firebase/php-jwt/src/JWT.php on line 233.
+ 1 VENDORPATH/firebase/php-jwt/src/JWT.php(203): Firebase\JWT\JWT::sign()
+ 2 APPPATH/Controllers/UserController.php(91): Firebase\JWT\JWT::encode()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UserController->Register()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/kuliah/Project_finish/Kampus_project_end/public/index.php')
+CRITICAL - 2023-04-01 04:27:52 --> key must be a string when using hmac
+in VENDORPATH/firebase/php-jwt/src/JWT.php on line 233.
+ 1 VENDORPATH/firebase/php-jwt/src/JWT.php(203): Firebase\JWT\JWT::sign()
+ 2 APPPATH/Controllers/UserController.php(91): Firebase\JWT\JWT::encode()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UserController->Register()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/kuliah/Project_finish/Kampus_project_end/public/index.php')
+CRITICAL - 2023-04-01 04:28:05 --> key must be a string when using hmac
+in VENDORPATH/firebase/php-jwt/src/JWT.php on line 233.
+ 1 VENDORPATH/firebase/php-jwt/src/JWT.php(203): Firebase\JWT\JWT::sign()
+ 2 APPPATH/Controllers/UserController.php(91): Firebase\JWT\JWT::encode()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UserController->Register()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/kuliah/Project_finish/Kampus_project_end/public/index.php')
+CRITICAL - 2023-04-01 04:28:29 --> key must be a string when using hmac
+in VENDORPATH/firebase/php-jwt/src/JWT.php on line 233.
+ 1 VENDORPATH/firebase/php-jwt/src/JWT.php(203): Firebase\JWT\JWT::sign()
+ 2 APPPATH/Controllers/UserController.php(91): Firebase\JWT\JWT::encode()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UserController->Register()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/kuliah/Project_finish/Kampus_project_end/public/index.php')
+CRITICAL - 2023-04-01 04:31:25 --> key must be a string when using hmac
+in VENDORPATH/firebase/php-jwt/src/JWT.php on line 233.
+ 1 VENDORPATH/firebase/php-jwt/src/JWT.php(203): Firebase\JWT\JWT::sign()
+ 2 APPPATH/Controllers/UserController.php(91): Firebase\JWT\JWT::encode()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UserController->Register()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/kuliah/Project_finish/Kampus_project_end/public/index.php')
+CRITICAL - 2023-04-01 04:31:59 --> key must be a string when using hmac
+in VENDORPATH/firebase/php-jwt/src/JWT.php on line 233.
+ 1 VENDORPATH/firebase/php-jwt/src/JWT.php(203): Firebase\JWT\JWT::sign()
+ 2 APPPATH/Controllers/UserController.php(91): Firebase\JWT\JWT::encode()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UserController->Register()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/kuliah/Project_finish/Kampus_project_end/public/index.php')
+CRITICAL - 2023-04-01 04:32:45 --> key must be a string when using hmac
+in VENDORPATH/firebase/php-jwt/src/JWT.php on line 233.
+ 1 VENDORPATH/firebase/php-jwt/src/JWT.php(203): Firebase\JWT\JWT::sign()
+ 2 APPPATH/Controllers/UserController.php(91): Firebase\JWT\JWT::encode()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UserController->Register()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/kuliah/Project_finish/Kampus_project_end/public/index.php')
+CRITICAL - 2023-04-01 04:32:51 --> key must be a string when using hmac
+in VENDORPATH/firebase/php-jwt/src/JWT.php on line 233.
+ 1 VENDORPATH/firebase/php-jwt/src/JWT.php(203): Firebase\JWT\JWT::sign()
+ 2 APPPATH/Controllers/UserController.php(91): Firebase\JWT\JWT::encode()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UserController->Register()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/kuliah/Project_finish/Kampus_project_end/public/index.php')
+CRITICAL - 2023-04-01 04:34:06 --> key must be a string when using hmac
+in VENDORPATH/firebase/php-jwt/src/JWT.php on line 233.
+ 1 VENDORPATH/firebase/php-jwt/src/JWT.php(203): Firebase\JWT\JWT::sign()
+ 2 APPPATH/Controllers/UserController.php(95): Firebase\JWT\JWT::encode()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UserController->Register()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/kuliah/Project_finish/Kampus_project_end/public/index.php')
+CRITICAL - 2023-04-01 04:34:11 --> key must be a string when using hmac
+in VENDORPATH/firebase/php-jwt/src/JWT.php on line 233.
+ 1 VENDORPATH/firebase/php-jwt/src/JWT.php(203): Firebase\JWT\JWT::sign()
+ 2 APPPATH/Controllers/UserController.php(95): Firebase\JWT\JWT::encode()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UserController->Register()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/kuliah/Project_finish/Kampus_project_end/public/index.php')
+CRITICAL - 2023-04-01 04:34:30 --> key must be a string when using hmac
+in VENDORPATH/firebase/php-jwt/src/JWT.php on line 233.
+ 1 VENDORPATH/firebase/php-jwt/src/JWT.php(203): Firebase\JWT\JWT::sign()
+ 2 APPPATH/Controllers/UserController.php(95): Firebase\JWT\JWT::encode()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UserController->Register()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/kuliah/Project_finish/Kampus_project_end/public/index.php')
+CRITICAL - 2023-04-01 04:34:34 --> key must be a string when using hmac
+in VENDORPATH/firebase/php-jwt/src/JWT.php on line 233.
+ 1 VENDORPATH/firebase/php-jwt/src/JWT.php(203): Firebase\JWT\JWT::sign()
+ 2 APPPATH/Controllers/UserController.php(95): Firebase\JWT\JWT::encode()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UserController->Register()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/kuliah/Project_finish/Kampus_project_end/public/index.php')
+CRITICAL - 2023-04-01 04:34:40 --> key must be a string when using hmac
+in VENDORPATH/firebase/php-jwt/src/JWT.php on line 233.
+ 1 VENDORPATH/firebase/php-jwt/src/JWT.php(203): Firebase\JWT\JWT::sign()
+ 2 APPPATH/Controllers/UserController.php(95): Firebase\JWT\JWT::encode()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UserController->Register()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/kuliah/Project_finish/Kampus_project_end/public/index.php')
+CRITICAL - 2023-04-01 04:34:48 --> key must be a string when using hmac
+in VENDORPATH/firebase/php-jwt/src/JWT.php on line 233.
+ 1 VENDORPATH/firebase/php-jwt/src/JWT.php(203): Firebase\JWT\JWT::sign()
+ 2 APPPATH/Controllers/UserController.php(95): Firebase\JWT\JWT::encode()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UserController->Register()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/kuliah/Project_finish/Kampus_project_end/public/index.php')
+CRITICAL - 2023-04-01 04:34:56 --> key must be a string when using hmac
+in VENDORPATH/firebase/php-jwt/src/JWT.php on line 233.
+ 1 VENDORPATH/firebase/php-jwt/src/JWT.php(203): Firebase\JWT\JWT::sign()
+ 2 APPPATH/Controllers/UserController.php(95): Firebase\JWT\JWT::encode()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UserController->Register()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/kuliah/Project_finish/Kampus_project_end/public/index.php')
+CRITICAL - 2023-04-01 04:35:07 --> key must be a string when using hmac
+in VENDORPATH/firebase/php-jwt/src/JWT.php on line 233.
+ 1 VENDORPATH/firebase/php-jwt/src/JWT.php(203): Firebase\JWT\JWT::sign()
+ 2 APPPATH/Controllers/UserController.php(94): Firebase\JWT\JWT::encode()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UserController->Register()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/kuliah/Project_finish/Kampus_project_end/public/index.php')
+CRITICAL - 2023-04-01 04:35:12 --> key must be a string when using hmac
+in VENDORPATH/firebase/php-jwt/src/JWT.php on line 233.
+ 1 VENDORPATH/firebase/php-jwt/src/JWT.php(203): Firebase\JWT\JWT::sign()
+ 2 APPPATH/Controllers/UserController.php(94): Firebase\JWT\JWT::encode()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UserController->Register()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/kuliah/Project_finish/Kampus_project_end/public/index.php')
+CRITICAL - 2023-04-01 04:35:17 --> key must be a string when using hmac
+in VENDORPATH/firebase/php-jwt/src/JWT.php on line 233.
+ 1 VENDORPATH/firebase/php-jwt/src/JWT.php(203): Firebase\JWT\JWT::sign()
+ 2 APPPATH/Controllers/UserController.php(94): Firebase\JWT\JWT::encode()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UserController->Register()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/kuliah/Project_finish/Kampus_project_end/public/index.php')
+CRITICAL - 2023-04-01 04:35:23 --> key must be a string when using hmac
+in VENDORPATH/firebase/php-jwt/src/JWT.php on line 233.
+ 1 VENDORPATH/firebase/php-jwt/src/JWT.php(203): Firebase\JWT\JWT::sign()
+ 2 APPPATH/Controllers/UserController.php(95): Firebase\JWT\JWT::encode()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UserController->Register()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/kuliah/Project_finish/Kampus_project_end/public/index.php')
+CRITICAL - 2023-04-01 04:35:26 --> key must be a string when using hmac
+in VENDORPATH/firebase/php-jwt/src/JWT.php on line 233.
+ 1 VENDORPATH/firebase/php-jwt/src/JWT.php(203): Firebase\JWT\JWT::sign()
+ 2 APPPATH/Controllers/UserController.php(94): Firebase\JWT\JWT::encode()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UserController->Register()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/kuliah/Project_finish/Kampus_project_end/public/index.php')
+CRITICAL - 2023-04-01 04:36:27 --> key must be a string when using hmac
+in VENDORPATH/firebase/php-jwt/src/JWT.php on line 233.
+ 1 VENDORPATH/firebase/php-jwt/src/JWT.php(203): Firebase\JWT\JWT::sign()
+ 2 APPPATH/Controllers/UserController.php(94): Firebase\JWT\JWT::encode()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UserController->Register()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/kuliah/Project_finish/Kampus_project_end/public/index.php')
+CRITICAL - 2023-04-01 04:36:34 --> key must be a string when using hmac
+in VENDORPATH/firebase/php-jwt/src/JWT.php on line 233.
+ 1 VENDORPATH/firebase/php-jwt/src/JWT.php(203): Firebase\JWT\JWT::sign()
+ 2 APPPATH/Controllers/UserController.php(95): Firebase\JWT\JWT::encode()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UserController->Register()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/kuliah/Project_finish/Kampus_project_end/public/index.php')
+CRITICAL - 2023-04-01 04:36:57 --> key must be a string when using hmac
+in VENDORPATH/firebase/php-jwt/src/JWT.php on line 233.
+ 1 VENDORPATH/firebase/php-jwt/src/JWT.php(203): Firebase\JWT\JWT::sign()
+ 2 APPPATH/Controllers/UserController.php(95): Firebase\JWT\JWT::encode()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UserController->Register()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/kuliah/Project_finish/Kampus_project_end/public/index.php')
+CRITICAL - 2023-04-01 04:37:10 --> key must be a string when using hmac
+in VENDORPATH/firebase/php-jwt/src/JWT.php on line 233.
+ 1 VENDORPATH/firebase/php-jwt/src/JWT.php(203): Firebase\JWT\JWT::sign()
+ 2 APPPATH/Controllers/UserController.php(95): Firebase\JWT\JWT::encode()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UserController->Register()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/kuliah/Project_finish/Kampus_project_end/public/index.php')
+ERROR - 2023-04-01 04:54:26 --> ErrorException: pg_query(): Query failed: ERROR:  column &quot;nim&quot; of relation &quot;users&quot; does not exist
+LINE 1: ...ddress&quot;, &quot;password&quot;, &quot;phone_number&quot;, &quot;user_name&quot;, &quot;nim&quot;, &quot;to...
+                                                             ^ in /var/www/html/kuliah/Project_finish/Kampus_project_end/vendor/codeigniter4/framework/system/Database/Postgre/Connection.php:147
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/kuliah/Project_finish/Kampus_project_end/vendor/codeigniter4/framework/system/Database/Postgre/Connection.php(147): pg_query()
+#2 /var/www/html/kuliah/Project_finish/Kampus_project_end/vendor/codeigniter4/framework/system/Database/BaseConnection.php(691): CodeIgniter\Database\Postgre\Connection->execute()
+#3 /var/www/html/kuliah/Project_finish/Kampus_project_end/vendor/codeigniter4/framework/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#4 /var/www/html/kuliah/Project_finish/Kampus_project_end/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#5 /var/www/html/kuliah/Project_finish/Kampus_project_end/vendor/codeigniter4/framework/system/Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#6 /var/www/html/kuliah/Project_finish/Kampus_project_end/vendor/codeigniter4/framework/system/BaseModel.php(782): CodeIgniter\Model->doInsert()
+#7 /var/www/html/kuliah/Project_finish/Kampus_project_end/vendor/codeigniter4/framework/system/Model.php(730): CodeIgniter\BaseModel->insert()
+#8 /var/www/html/kuliah/Project_finish/Kampus_project_end/vendor/codeigniter4/framework/system/BaseModel.php(692): CodeIgniter\Model->insert()
+#9 /var/www/html/kuliah/Project_finish/Kampus_project_end/app/Controllers/UserController.php(180): CodeIgniter\BaseModel->save()
+#10 /var/www/html/kuliah/Project_finish/Kampus_project_end/vendor/codeigniter4/framework/system/CodeIgniter.php(934): App\Controllers\UserController->Register()
+#11 /var/www/html/kuliah/Project_finish/Kampus_project_end/vendor/codeigniter4/framework/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#12 /var/www/html/kuliah/Project_finish/Kampus_project_end/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#13 /var/www/html/kuliah/Project_finish/Kampus_project_end/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#14 /var/www/html/kuliah/Project_finish/Kampus_project_end/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('/var/www/html/k...')
+#15 {main}
+CRITICAL - 2023-04-01 04:54:26 --> pg_query(): Query failed: ERROR:  column &quot;nim&quot; of relation &quot;users&quot; does not exist
+LINE 1: ...ddress&quot;, &quot;password&quot;, &quot;phone_number&quot;, &quot;user_name&quot;, &quot;nim&quot;, &quot;to...
+                                                             ^
+in SYSTEMPATH/Database/Postgre/Connection.php on line 147.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/Database/Postgre/Connection.php(147): pg_query()
+ 3 SYSTEMPATH/Database/BaseConnection.php(691): CodeIgniter\Database\Postgre\Connection->execute()
+ 4 SYSTEMPATH/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 5 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 6 SYSTEMPATH/Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 7 SYSTEMPATH/BaseModel.php(782): CodeIgniter\Model->doInsert()
+ 8 SYSTEMPATH/Model.php(730): CodeIgniter\BaseModel->insert()
+ 9 SYSTEMPATH/BaseModel.php(692): CodeIgniter\Model->insert()
+10 APPPATH/Controllers/UserController.php(180): CodeIgniter\BaseModel->save()
+11 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UserController->Register()
+12 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+13 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+14 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/kuliah/Project_finish/Kampus_project_end/public/index.php')
+ERROR - 2023-04-01 04:57:20 --> ErrorException: pg_query(): Query failed: ERROR:  duplicate key value violates unique constraint &quot;users_email_address_key&quot;
+DETAIL:  Key (email_address)=(fazrinursyam@gmail.com) already exists. in /var/www/html/kuliah/Project_finish/Kampus_project_end/vendor/codeigniter4/framework/system/Database/Postgre/Connection.php:147
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/kuliah/Project_finish/Kampus_project_end/vendor/codeigniter4/framework/system/Database/Postgre/Connection.php(147): pg_query()
+#2 /var/www/html/kuliah/Project_finish/Kampus_project_end/vendor/codeigniter4/framework/system/Database/BaseConnection.php(691): CodeIgniter\Database\Postgre\Connection->execute()
+#3 /var/www/html/kuliah/Project_finish/Kampus_project_end/vendor/codeigniter4/framework/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#4 /var/www/html/kuliah/Project_finish/Kampus_project_end/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#5 /var/www/html/kuliah/Project_finish/Kampus_project_end/vendor/codeigniter4/framework/system/Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#6 /var/www/html/kuliah/Project_finish/Kampus_project_end/vendor/codeigniter4/framework/system/BaseModel.php(782): CodeIgniter\Model->doInsert()
+#7 /var/www/html/kuliah/Project_finish/Kampus_project_end/vendor/codeigniter4/framework/system/Model.php(730): CodeIgniter\BaseModel->insert()
+#8 /var/www/html/kuliah/Project_finish/Kampus_project_end/vendor/codeigniter4/framework/system/BaseModel.php(692): CodeIgniter\Model->insert()
+#9 /var/www/html/kuliah/Project_finish/Kampus_project_end/app/Controllers/UserController.php(180): CodeIgniter\BaseModel->save()
+#10 /var/www/html/kuliah/Project_finish/Kampus_project_end/vendor/codeigniter4/framework/system/CodeIgniter.php(934): App\Controllers\UserController->Register()
+#11 /var/www/html/kuliah/Project_finish/Kampus_project_end/vendor/codeigniter4/framework/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#12 /var/www/html/kuliah/Project_finish/Kampus_project_end/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#13 /var/www/html/kuliah/Project_finish/Kampus_project_end/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#14 /var/www/html/kuliah/Project_finish/Kampus_project_end/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('/var/www/html/k...')
+#15 {main}
+CRITICAL - 2023-04-01 04:57:20 --> pg_query(): Query failed: ERROR:  duplicate key value violates unique constraint &quot;users_email_address_key&quot;
+DETAIL:  Key (email_address)=(fazrinursyam@gmail.com) already exists.
+in SYSTEMPATH/Database/Postgre/Connection.php on line 147.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/Database/Postgre/Connection.php(147): pg_query()
+ 3 SYSTEMPATH/Database/BaseConnection.php(691): CodeIgniter\Database\Postgre\Connection->execute()
+ 4 SYSTEMPATH/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 5 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 6 SYSTEMPATH/Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 7 SYSTEMPATH/BaseModel.php(782): CodeIgniter\Model->doInsert()
+ 8 SYSTEMPATH/Model.php(730): CodeIgniter\BaseModel->insert()
+ 9 SYSTEMPATH/BaseModel.php(692): CodeIgniter\Model->insert()
+10 APPPATH/Controllers/UserController.php(180): CodeIgniter\BaseModel->save()
+11 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UserController->Register()
+12 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+13 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+14 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/kuliah/Project_finish/Kampus_project_end/public/index.php')
+ERROR - 2023-04-01 04:58:19 --> ErrorException: pg_query(): Query failed: ERROR:  duplicate key value violates unique constraint &quot;users_phone_number_key&quot;
+DETAIL:  Key (phone_number)=(0895359470789) already exists. in /var/www/html/kuliah/Project_finish/Kampus_project_end/vendor/codeigniter4/framework/system/Database/Postgre/Connection.php:147
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/kuliah/Project_finish/Kampus_project_end/vendor/codeigniter4/framework/system/Database/Postgre/Connection.php(147): pg_query()
+#2 /var/www/html/kuliah/Project_finish/Kampus_project_end/vendor/codeigniter4/framework/system/Database/BaseConnection.php(691): CodeIgniter\Database\Postgre\Connection->execute()
+#3 /var/www/html/kuliah/Project_finish/Kampus_project_end/vendor/codeigniter4/framework/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#4 /var/www/html/kuliah/Project_finish/Kampus_project_end/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#5 /var/www/html/kuliah/Project_finish/Kampus_project_end/vendor/codeigniter4/framework/system/Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#6 /var/www/html/kuliah/Project_finish/Kampus_project_end/vendor/codeigniter4/framework/system/BaseModel.php(782): CodeIgniter\Model->doInsert()
+#7 /var/www/html/kuliah/Project_finish/Kampus_project_end/vendor/codeigniter4/framework/system/Model.php(730): CodeIgniter\BaseModel->insert()
+#8 /var/www/html/kuliah/Project_finish/Kampus_project_end/vendor/codeigniter4/framework/system/BaseModel.php(692): CodeIgniter\Model->insert()
+#9 /var/www/html/kuliah/Project_finish/Kampus_project_end/app/Controllers/UserController.php(180): CodeIgniter\BaseModel->save()
+#10 /var/www/html/kuliah/Project_finish/Kampus_project_end/vendor/codeigniter4/framework/system/CodeIgniter.php(934): App\Controllers\UserController->Register()
+#11 /var/www/html/kuliah/Project_finish/Kampus_project_end/vendor/codeigniter4/framework/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#12 /var/www/html/kuliah/Project_finish/Kampus_project_end/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#13 /var/www/html/kuliah/Project_finish/Kampus_project_end/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#14 /var/www/html/kuliah/Project_finish/Kampus_project_end/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('/var/www/html/k...')
+#15 {main}
+CRITICAL - 2023-04-01 04:58:19 --> pg_query(): Query failed: ERROR:  duplicate key value violates unique constraint &quot;users_phone_number_key&quot;
+DETAIL:  Key (phone_number)=(0895359470789) already exists.
+in SYSTEMPATH/Database/Postgre/Connection.php on line 147.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/Database/Postgre/Connection.php(147): pg_query()
+ 3 SYSTEMPATH/Database/BaseConnection.php(691): CodeIgniter\Database\Postgre\Connection->execute()
+ 4 SYSTEMPATH/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 5 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 6 SYSTEMPATH/Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 7 SYSTEMPATH/BaseModel.php(782): CodeIgniter\Model->doInsert()
+ 8 SYSTEMPATH/Model.php(730): CodeIgniter\BaseModel->insert()
+ 9 SYSTEMPATH/BaseModel.php(692): CodeIgniter\Model->insert()
+10 APPPATH/Controllers/UserController.php(180): CodeIgniter\BaseModel->save()
+11 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UserController->Register()
+12 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+13 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+14 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/kuliah/Project_finish/Kampus_project_end/public/index.php')
+ERROR - 2023-04-01 05:07:24 --> ErrorException: pg_query(): Query failed: ERROR:  value too long for type character varying(255) in /var/www/html/kuliah/Project_finish/Kampus_project_end/vendor/codeigniter4/framework/system/Database/Postgre/Connection.php:147
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/kuliah/Project_finish/Kampus_project_end/vendor/codeigniter4/framework/system/Database/Postgre/Connection.php(147): pg_query()
+#2 /var/www/html/kuliah/Project_finish/Kampus_project_end/vendor/codeigniter4/framework/system/Database/BaseConnection.php(691): CodeIgniter\Database\Postgre\Connection->execute()
+#3 /var/www/html/kuliah/Project_finish/Kampus_project_end/vendor/codeigniter4/framework/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#4 /var/www/html/kuliah/Project_finish/Kampus_project_end/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#5 /var/www/html/kuliah/Project_finish/Kampus_project_end/vendor/codeigniter4/framework/system/Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#6 /var/www/html/kuliah/Project_finish/Kampus_project_end/vendor/codeigniter4/framework/system/BaseModel.php(782): CodeIgniter\Model->doInsert()
+#7 /var/www/html/kuliah/Project_finish/Kampus_project_end/vendor/codeigniter4/framework/system/Model.php(730): CodeIgniter\BaseModel->insert()
+#8 /var/www/html/kuliah/Project_finish/Kampus_project_end/vendor/codeigniter4/framework/system/BaseModel.php(692): CodeIgniter\Model->insert()
+#9 /var/www/html/kuliah/Project_finish/Kampus_project_end/app/Controllers/UserController.php(181): CodeIgniter\BaseModel->save()
+#10 /var/www/html/kuliah/Project_finish/Kampus_project_end/vendor/codeigniter4/framework/system/CodeIgniter.php(934): App\Controllers\UserController->Register()
+#11 /var/www/html/kuliah/Project_finish/Kampus_project_end/vendor/codeigniter4/framework/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#12 /var/www/html/kuliah/Project_finish/Kampus_project_end/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#13 /var/www/html/kuliah/Project_finish/Kampus_project_end/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#14 /var/www/html/kuliah/Project_finish/Kampus_project_end/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('/var/www/html/k...')
+#15 {main}
+CRITICAL - 2023-04-01 05:07:24 --> pg_query(): Query failed: ERROR:  value too long for type character varying(255)
+in SYSTEMPATH/Database/Postgre/Connection.php on line 147.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/Database/Postgre/Connection.php(147): pg_query()
+ 3 SYSTEMPATH/Database/BaseConnection.php(691): CodeIgniter\Database\Postgre\Connection->execute()
+ 4 SYSTEMPATH/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 5 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 6 SYSTEMPATH/Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 7 SYSTEMPATH/BaseModel.php(782): CodeIgniter\Model->doInsert()
+ 8 SYSTEMPATH/Model.php(730): CodeIgniter\BaseModel->insert()
+ 9 SYSTEMPATH/BaseModel.php(692): CodeIgniter\Model->insert()
+10 APPPATH/Controllers/UserController.php(181): CodeIgniter\BaseModel->save()
+11 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UserController->Register()
+12 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+13 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+14 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/kuliah/Project_finish/Kampus_project_end/public/index.php')
+CRITICAL - 2023-04-01 05:18:30 --> The route for "/register" cannot be found.
+in SYSTEMPATH/HTTP/RedirectResponse.php on line 60.
+ 1 SYSTEMPATH/HTTP/RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute()
+ 2 SYSTEMPATH/Common.php(880): CodeIgniter\HTTP\RedirectResponse->route()
+ 3 APPPATH/Controllers/UserController.php(182): redirect()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UserController->Register()
  5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
  6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
  7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
- 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/kuliah/Project_finish/Project_kuliah/public/index.php')
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/kuliah/Project_finish/Kampus_project_end/public/index.php')
+CRITICAL - 2023-04-01 05:18:36 --> The route for "/register" cannot be found.
+in SYSTEMPATH/HTTP/RedirectResponse.php on line 60.
+ 1 SYSTEMPATH/HTTP/RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute()
+ 2 SYSTEMPATH/Common.php(880): CodeIgniter\HTTP\RedirectResponse->route()
+ 3 APPPATH/Controllers/UserController.php(182): redirect()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UserController->Register()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/kuliah/Project_finish/Kampus_project_end/public/index.php')
+CRITICAL - 2023-04-01 05:18:37 --> The route for "/register" cannot be found.
+in SYSTEMPATH/HTTP/RedirectResponse.php on line 60.
+ 1 SYSTEMPATH/HTTP/RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute()
+ 2 SYSTEMPATH/Common.php(880): CodeIgniter\HTTP\RedirectResponse->route()
+ 3 APPPATH/Controllers/UserController.php(182): redirect()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UserController->Register()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/kuliah/Project_finish/Kampus_project_end/public/index.php')
+CRITICAL - 2023-04-01 05:18:53 --> The route for "/register" cannot be found.
+in SYSTEMPATH/HTTP/RedirectResponse.php on line 60.
+ 1 SYSTEMPATH/HTTP/RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute()
+ 2 SYSTEMPATH/Common.php(880): CodeIgniter\HTTP\RedirectResponse->route()
+ 3 APPPATH/Controllers/UserController.php(182): redirect()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UserController->Register()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/kuliah/Project_finish/Kampus_project_end/public/index.php')
+CRITICAL - 2023-04-01 05:19:05 --> The route for "/lol" cannot be found.
+in SYSTEMPATH/HTTP/RedirectResponse.php on line 60.
+ 1 SYSTEMPATH/HTTP/RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute()
+ 2 SYSTEMPATH/Common.php(880): CodeIgniter\HTTP\RedirectResponse->route()
+ 3 APPPATH/Controllers/UserController.php(182): redirect()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UserController->Register()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/kuliah/Project_finish/Kampus_project_end/public/index.php')
+CRITICAL - 2023-04-01 05:19:51 --> The route for "/lol" cannot be found.
+in SYSTEMPATH/HTTP/RedirectResponse.php on line 60.
+ 1 SYSTEMPATH/HTTP/RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute()
+ 2 SYSTEMPATH/Common.php(880): CodeIgniter\HTTP\RedirectResponse->route()
+ 3 APPPATH/Controllers/UserController.php(182): redirect()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UserController->Register()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/kuliah/Project_finish/Kampus_project_end/public/index.php')
