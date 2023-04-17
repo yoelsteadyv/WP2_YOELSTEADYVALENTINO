@@ -15,6 +15,7 @@ $routes->setDefaultController('Home');
 $routes->setDefaultMethod('index');
 $routes->setTranslateURIDashes(false);
 $routes->set404Override();
+$routes->setAutoRoute(true);
 // The Auto Routing (Legacy) is very dangerous. It is easy to create vulnerable apps
 // where controller filters or CSRF protection are bypassed.
 // If you don't want to define all routes, please use the Auto Routing (Improved).
@@ -29,11 +30,8 @@ $routes->set404Override();
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
-$routes->setAutoRoute(true);
-$routes->get('/penjumlahan/(:num)/(:num)', 'Latihan1::penjumlahan/$1/$2', [
-    'filter' => 'auth',
-    'model_latihan1' => new \App\Models\Model_latihan1(),
-]);
+$routes->get('/', 'Home::index');
+
 /*
  * --------------------------------------------------------------------
  * Additional Routing
