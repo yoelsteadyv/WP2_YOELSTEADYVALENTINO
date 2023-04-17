@@ -1,9 +1,8 @@
 <?php
+
 namespace App\Controllers;
 
-use CodeIgniter\Controller;
-
-class Matakuliah extends Controller
+class Matakuliah extends BaseController
 {
     public function index()
     {
@@ -17,7 +16,6 @@ class Matakuliah extends Controller
             'nama' => $this->request->getPost('nama'),
             'sks' => $this->request->getPost('sks')
         ];
-
         return view('view-data-matakuliah', $data);
     }
 }

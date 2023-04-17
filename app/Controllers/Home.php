@@ -6,6 +6,6 @@ class Home extends BaseController
 {
     public function index()
     {
-        return view('view-form-matakuliah');
+        return view('welcome_message');
     }
 }

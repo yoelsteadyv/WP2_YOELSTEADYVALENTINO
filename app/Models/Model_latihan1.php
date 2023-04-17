@@ -6,10 +6,10 @@ use CodeIgniter\Model;
 
 class Model_latihan1 extends Model
 {
-    //membuat property untuk menampung nilai
-    public $nilai1, $nilai2, $hasil;
+    protected $nilai1;
+    protected $nilai2;
+    protected $hasil;
 
-    //method penjumlahan
     public function jumlah($n1 = null, $n2 = null)
     {
         $this->nilai1 = $n1;
