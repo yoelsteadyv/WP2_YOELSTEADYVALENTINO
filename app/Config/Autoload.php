@@ -61,7 +61,9 @@ class Autoload extends AutoloadConfig
      *
      * @var array<string, string>
      */
-    public $classmap = [];
+    public $classmap = [
+        'Form_validation' => APPPATH . 'Libraries/Form_validation.php',
+    ];
 
     /**
      * -------------------------------------------------------------------

@@ -15,7 +15,7 @@ class ModelUser extends Model
 
     public function cekData($where = null)
     {
-        return $this->getWhere($where);
+        return $this->db->getWhere('user', $where);
     }
 
     public function getUserWhere($where = null)

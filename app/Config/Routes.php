@@ -30,8 +30,6 @@ $routes->setAutoRoute(true);
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
-$routes->get('/', 'Home::index');
-
 /*
  * --------------------------------------------------------------------
  * Additional Routing
@@ -45,6 +43,12 @@ $routes->get('/', 'Home::index');
  * You will have access to the $routes object within that file without
  * needing to reload it.
  */
-if (is_file(APPPATH . 'Config/' . ENVIRONMENT . '/Routes.php')) {
+use App\Controllers\Autentifikasi;
+
+$routes->get('/', 'Home::index');
+$routes->get('login', 'Autentifikasi::index');
+
+
+ if (is_file(APPPATH . 'Config/' . ENVIRONMENT . '/Routes.php')) {
     require APPPATH . 'Config/' . ENVIRONMENT . '/Routes.php';
 }
