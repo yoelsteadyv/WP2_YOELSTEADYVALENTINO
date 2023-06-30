@@ -32,7 +32,6 @@ foreach($data as $data) :
                 $date_end = new DateTime($data['tgl_matkul_end']);
                 $dates_start_view = format_hari($date_start->format('D '));
                 $dates_start_time = jam($date_start->format('D H:i:s'));
-
                 $dates_end_view = jam($date_end->format('D H:i:s'));?>
             
             <div class="stats-detail">
