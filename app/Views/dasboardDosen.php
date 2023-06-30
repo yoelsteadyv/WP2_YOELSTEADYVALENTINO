@@ -218,7 +218,7 @@
                             $('#exampleModal').modal('hide')
                             event.preventDefault();
                             var form = $(this);
-                            var actionUrl = 'http://localhost:8081/dasboard_admin'
+                            var actionUrl = 'http://localhost:8080/dasboard_admin'
 
                             $.ajax({
                                     type: "POST",
@@ -250,7 +250,7 @@
                                 console.log(id);
                                 
 
-                                var actionUrl = 'http://localhost:8081/student-show/' + id
+                                var actionUrl = 'http://localhost:8080/student-show/' + id
 
                                 $.ajax({
                                     type: "GET",
@@ -294,7 +294,7 @@
                                 location.reload();
                                 })
                         function studentLock(id) { 
-                            var actionUrl = 'http://localhost:8081/student-lock/' + id
+                            var actionUrl = 'http://localhost:8080/student-lock/' + id
                             Swal.fire({
                             title: 'Yakin akan tutup absen ini ?',
                             icon: 'warning',

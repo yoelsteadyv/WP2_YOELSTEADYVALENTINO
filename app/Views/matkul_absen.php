@@ -3,7 +3,7 @@
 
 $url = 'http://' . $_SERVER[ 'HTTP_HOST' ] . $_SERVER[ 'REQUEST_URI' ];
 // $url = 'http://' . $_SERVER[ 'HTTP_HOST' ] . $_SERVER[ 'REQUEST_URI' ];
-$explode = str_replace("http://localhost:8081/absensi/", "",$url);
+$explode = str_replace("http://localhost:8080/absensi/", "",$url);
 
 ?>
 
@@ -310,7 +310,7 @@ foreach($data as $data) :
                             $('#exampleModal').modal('hide')
                             event.preventDefault();
                             var form = $(this);
-                            var actionUrl = 'http://localhost:8081/absensi_check'
+                            var actionUrl = 'http://localhost:8080/absensi_check'
 
                             $.ajax({
                                     type: "POST",

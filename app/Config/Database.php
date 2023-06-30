@@ -25,7 +25,7 @@ class Database extends Config
      * The default database connection.
      */
     public array $default = [
-        'DSN'      => 'Postgre://postgres:Fazri18@localhost:5432/Learn?charset=utf8&connect_timeout=5',
+        'DSN'      => 'Postgre://postgres:yoel100202@localhost:5432/test?charset=utf8&connect_timeout=5',
         'hostname' => 'localhost',
         'username' => '',
         'password' => '',
